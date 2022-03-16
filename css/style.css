@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", serif;
+  font-size: 14px;
+}
+
+body {
+  letter-spacing: 0.02em;
+  line-height: 1.2em;
+  background: linear-gradient(45deg, #d595ee, #ffbcb7, #f0eee9);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5em;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.shadow {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.head {
+  padding-top: 50px;
+}
+.menu {
+  display: block;
+}
+.menu-start {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: linear-gradient(45deg, #ffd06b, #fc4d82);
+}
+
+.menu-start li a:hover {
+  color: #fff;
+}
+
+.menu-start li a {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.about {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #f5cd41, #ffab7d, #fda3b4, #c7a9c4);
+}
+
+.me {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.about__me {
+  font-size: 20px;
+  line-height: 1.2em;
+  padding-bottom: 21px;
+  width: 500px;
+}
+
+.contact-title {
+  font-size: 30px;
+  padding-bottom: 10px;
+  display: block;
+}
+.contact__me li {
+  list-style-type: none;
+  line-height: 1.2em;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.me-img {
+  vertical-align: middle;
+  width: 39%;
+  padding-bottom: 40px;
+}
+.code-skills {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #fd7c84, #fffdfa);
+}
+.Skills-Examples,
+.code {
+  padding: 30px 0px;
+}
+
+.Skills-Examples h3,
+.code h3 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.Skills-Examples li {
+  font-size: 20px;
+  list-style-type: none;
+  line-height: 1.2em;
+}
+.code-war {
+  padding-top: 0px;
+  font-size: 15px;
+}
+
+.Project li a {
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+.Project li a:hover {
+  color: #fff;
+}
+
+.Project li {
+  list-style-type: none;
+}
+
+.education-languages {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #fffdfa, #fd7c84);
+}
+
+.education {
+  padding: 30px 40px;
+  width: 50%;
+}
+
+.education h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.education li {
+  font-size: 20px;
+  list-style-type: none;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+/* footer */
+.foot {
+  background: linear-gradient(45deg, #ffd06b, #fc4d82);
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding: 10px 0px;
+}
+
+.rs,
+.git,
+.date-start {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+.date-start {
+  align-items: center;
+}
